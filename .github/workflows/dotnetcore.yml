@@ -12,12 +12,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
    
-    - name: Install dependencies
-      run: dotnet restore --verbosity diagnostic
     - name: Build
-      run: dotnet build --configuration Release --no-restore
-    - name: Test
-      run: dotnet test --no-restore --verbosity normal
+      run: dotnet build --configuration Release
+    
         # Publish
     - name: publish on version change
       uses: rohith/publish-nuget@v2
