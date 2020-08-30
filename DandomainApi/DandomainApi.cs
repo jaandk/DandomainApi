@@ -33963,7 +33963,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -33990,7 +33990,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("minBuyLimit", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? MinBuyLimit { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34055,7 +34055,7 @@ namespace DandomainApi
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "10.1.24.0 (Newtonsoft.Json v11.0.0.0)")]
     public partial class DeleteResponseDto
     {
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34078,7 +34078,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34152,7 +34152,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34352,7 +34352,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34454,7 +34454,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("typeId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public int? TypeId { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
         [Newtonsoft.Json.JsonProperty("salesCount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -34537,7 +34537,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34563,7 +34563,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34589,7 +34589,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34615,7 +34615,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34641,7 +34641,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34667,7 +34667,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34693,7 +34693,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34719,7 +34719,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34745,7 +34745,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34771,7 +34771,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34797,7 +34797,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -34823,7 +34823,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35315,7 +35315,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35341,7 +35341,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35367,7 +35367,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35435,7 +35435,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35558,7 +35558,7 @@ namespace DandomainApi
         [System.ComponentModel.DataAnnotations.Range(0, 1)]
         public int MatchAction { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35601,7 +35601,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35624,7 +35624,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35657,7 +35657,7 @@ namespace DandomainApi
         [System.ComponentModel.DataAnnotations.Required(AllowEmptyStrings = true)]
         public string VariableOperator { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35707,7 +35707,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
         public CookieDetailsResponseDtoCategory? Category { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
         [Newtonsoft.Json.JsonProperty("translations", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -35736,7 +35736,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35793,7 +35793,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35847,7 +35847,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35870,7 +35870,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35894,7 +35894,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("active", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public bool? Active { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
         [Newtonsoft.Json.JsonProperty("vat", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -35926,7 +35926,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -35987,7 +35987,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("text", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Text { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -36010,7 +36010,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -36381,7 +36381,7 @@ namespace DandomainApi
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "10.1.24.0 (Newtonsoft.Json v11.0.0.0)")]
     public partial class ScalarActionResponseDto
     {
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -36404,7 +36404,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -36416,7 +36416,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("sent", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public bool? Sent { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -36439,7 +36439,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -36576,7 +36576,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -36684,7 +36684,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -36765,7 +36765,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -36774,7 +36774,7 @@ namespace DandomainApi
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "10.1.24.0 (Newtonsoft.Json v11.0.0.0)")]
     public partial class SaleGeneralDiscountDto
     {
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -36899,7 +36899,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -36938,7 +36938,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("shippingMethods", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public ICollectionResponseDtoOfShippingMethodResponseDto ShippingMethods { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -36964,7 +36964,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37036,7 +37036,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("storeFrontIconUrl", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string StoreFrontIconUrl { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37062,7 +37062,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37088,7 +37088,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37114,7 +37114,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37140,7 +37140,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37246,7 +37246,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("shippingFee", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? ShippingFee { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37348,7 +37348,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37371,7 +37371,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37434,7 +37434,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("products", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public ICollectionResponseDtoOfProductDataResponseDto Products { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37460,7 +37460,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37537,7 +37537,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37650,7 +37650,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37784,7 +37784,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -37829,7 +37829,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("variantType", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public int? VariantType { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -38019,8 +38019,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("lines", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public ICollectionResponseDtoOfOrderLineResponseDto Lines { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Always)]
-        [System.ComponentModel.DataAnnotations.Required(AllowEmptyStrings = true)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -38226,7 +38225,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -38336,7 +38335,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -38416,7 +38415,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -38440,7 +38439,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("siteId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public int? SiteId { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
         [Newtonsoft.Json.JsonProperty("pageId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -38493,7 +38492,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -38568,7 +38567,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -38831,7 +38830,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -38868,8 +38867,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("value", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Value { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Always)]
-        [System.ComponentModel.DataAnnotations.Required(AllowEmptyStrings = true)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -38892,7 +38890,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -38929,7 +38927,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -38956,7 +38954,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("mailTemplate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public OrderStateMailTemplateDto MailTemplate { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -39040,7 +39038,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -39088,7 +39086,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("gateway", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public IPayGatewayDto Gateway { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
         [Newtonsoft.Json.JsonProperty("countries", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -39147,7 +39145,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -39173,7 +39171,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -39221,7 +39219,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("percentageOfBuyAmount", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public double? PercentageOfBuyAmount { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -39346,7 +39344,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -39369,7 +39367,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -39422,7 +39420,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -39467,7 +39465,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -39476,7 +39474,7 @@ namespace DandomainApi
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "10.1.24.0 (Newtonsoft.Json v11.0.0.0)")]
     public partial class WebhookResponseDto
     {
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -39533,7 +39531,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("secret", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Secret { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -39852,7 +39850,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40133,7 +40131,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40156,7 +40154,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40179,7 +40177,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40202,7 +40200,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40225,7 +40223,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40248,7 +40246,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40271,7 +40269,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40346,7 +40344,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40399,7 +40397,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40434,7 +40432,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40443,7 +40441,7 @@ namespace DandomainApi
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "10.1.24.0 (Newtonsoft.Json v11.0.0.0)")]
     public partial class ProductTagResponseDto
     {
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -40484,7 +40482,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40540,7 +40538,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40581,7 +40579,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40604,7 +40602,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40648,7 +40646,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
         public RedirectResponseDtoType? Type { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Always)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         [System.ComponentModel.DataAnnotations.Required(AllowEmptyStrings = true)]
         public string CorrelationId { get; set; }
 
@@ -40691,7 +40689,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40751,7 +40749,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("deactivated", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public bool? Deactivated { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40798,7 +40796,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40852,7 +40850,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("deactivated", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public bool? Deactivated { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40896,7 +40894,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -40917,7 +40915,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public int? Id { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
         [Newtonsoft.Json.JsonProperty("domains", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -41056,7 +41054,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("cvrNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string CvrNumber { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -41201,8 +41199,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("categories", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public ICollectionResponseDtoOfSiteProductCategoryDto Categories { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Always)]
-        [System.ComponentModel.DataAnnotations.Required(AllowEmptyStrings = true)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
         [Newtonsoft.Json.JsonProperty("variantProducts", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -41267,7 +41264,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -41293,7 +41290,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -41463,7 +41460,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -41568,7 +41565,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("urlName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string UrlName { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
         [Newtonsoft.Json.JsonProperty("footer", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -41630,7 +41627,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -41653,7 +41650,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -41697,7 +41694,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -41720,7 +41717,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -41748,7 +41745,7 @@ namespace DandomainApi
         [Newtonsoft.Json.JsonProperty("productNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string ProductNumber { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -42378,7 +42375,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -42401,7 +42398,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -42493,7 +42490,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -42544,7 +42541,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -42591,7 +42588,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -42715,7 +42712,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -42804,7 +42801,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
@@ -42827,7 +42824,7 @@ namespace DandomainApi
         public int Count { get; set; }
 
         /// <summary>A correlation ID for the request. Store it to make it easier for DanDomain to track down the specific request in terms of troubleshooting, or when you want to use webhooks and know which action triggered an event.</summary>
-        [Newtonsoft.Json.JsonProperty("correlationId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        [Newtonsoft.Json.JsonProperty("correlationId")]
         public string CorrelationId { get; set; }
 
 
